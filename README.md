@@ -20,3 +20,16 @@ TC4024.20
 
 Select the options required for the build and hit the Build button.
 
+## Contributing
+
+If you would like to ontribute thats great, this is a developing project.
+As a tip to find out what you have access to get the object params from your model:
+
+get_param('SimpleGain','ObjectParameters');
+
+replace 'SimpleGain' with your model name.
+
+please fork the repo, branch make your changes and submit a PR
+
+
+
