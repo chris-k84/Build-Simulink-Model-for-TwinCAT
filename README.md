@@ -17,8 +17,8 @@ TC4024.20
 
 ## Instructions
 * Open the Live Script, SetForTwinCATGrt.mlx file.
-
-Select the options required for the build and hit the Build button.
+* Select the options required for the build 
+* hit the Build button.
 
 ## Contributing
 
@@ -29,7 +29,10 @@ get_param('SimpleGain','ObjectParameters');
 
 replace 'SimpleGain' with your model name.
 
-please fork the repo, branch make your changes and submit a PR
+* fork the repo, 
+* branch 
+* make your changes
+* submit a PR
 
 
 
