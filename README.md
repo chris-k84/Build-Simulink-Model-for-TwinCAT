@@ -18,5 +18,5 @@ TC4024.20
 ## Instructions
 * Open the Live Script, SetForTwinCATGrt.mlx file.
 
-Select the options required for the build and run the script.
+Select the options required for the build and hit the Build button.
 
