@@ -20,6 +20,10 @@ TC4024.20
 * Select the options required for the build 
 * hit the Build button.
 
+<mark>If you are building for a 64bit system make sure to specifiy your own driver signing certificate.</mark>
+
+<mark>Be aware that you will need to enable the TcCOM wrapper or PLC FB to create a PLC library. </mark>
+
 ## Contributing
 
 If you would like to ontribute thats great, this is a developing project.
