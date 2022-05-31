@@ -4,7 +4,7 @@
 
 It is possible to parameterise the build of a Simulink module using the Simulink coder tool options menus. This can take a lot of time and requires effort, especially if you are building a number of models or changing the parameters regularly. This live script semi automates the process.
 
-![Screenshot](HideCode.png)
+![Screenshot](LiveScript.png)
 
 This script allows you to parameterise a given model selectable in the first text box tool.
 
