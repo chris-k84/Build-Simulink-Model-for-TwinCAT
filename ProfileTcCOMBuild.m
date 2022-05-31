@@ -1,4 +1,6 @@
-function ProfileTcCOMBuild()
-    slbuild("SimpleGain");
+function ProfileTcCOMBuild(model)
+    profile on;
+    slbuild(model);
+    profile viewer;
 end
 
