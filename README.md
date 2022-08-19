@@ -2,7 +2,7 @@
 
 ## Overview
 
-It is possible to parameterise the build of a Simulink module using the Simulink coder tool options menus. This can take a lot of time and requires effort, especially if you are building a number of models or changing the parameters regularly. This live script semi automates the process.
+It is possible to parameterise the build of a Simulink module using the Simulink coder tool options menus. This can take a lot of time and requires effort, especially if you are building a number of models or changing the parameters regularly. This live script semi automates the process. It will also give you a base sample for how you would go about automating your build and deployment.
 
 ![Screenshot](LiveScript.png)
 
@@ -20,18 +20,22 @@ TC4024.20
 * Select the options required for the build 
 * hit the Build button.
 
-<mark>If you are building for a 64bit system make sure to specifiy your own driver signing certificate.</mark>
+<mark><span style="color:black">If you are building for a 64bit system make sure to specifiy your own driver signing certificate.</span></mark>
 
-<mark>Be aware that you will need to enable the TcCOM wrapper or PLC FB to create a PLC library. </mark>
+<mark><span style="color:black">Be aware that you will need to enable the TcCOM wrapper or PLC FB to create a PLC library.</span></mark>
 
 ## Contributing
 
 If you would like to ontribute thats great, this is a developing project.
 As a tip to find out what you have access to get the object params from your model:
 
-get_param('SimpleGain','ObjectParameters');
+get_param('YourModelName','ObjectParameters');
 
-replace 'SimpleGain' with your model name.
+for example
+
+get_param('MyTestModel','ObjectParameters');
+
+replace 'MyTestModel' with your model name.
 
 * fork the repo, 
 * branch 
